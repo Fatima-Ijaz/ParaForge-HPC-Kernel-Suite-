@@ -21,7 +21,8 @@ jobs:
           sudo apt-get install -y build-essential openmpi-bin libopenmpi-dev
 
       - name: Build all kernels
-        run: make
+        run: |
+          make > build.log 2>&1 || { grep -m8 -i -E "error|undefined|not found" build.log | while read -r l; do echo "::error::$l"; done; tail -5 build.log | while read -r l; do echo "::error::tail: $l"; done; exit 1; }
 
       - name: Run correctness checks
         run: make check
