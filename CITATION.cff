@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "ParaForge: HPC Kernel Suite"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Ijaz
+    given-names: Fatima
+  - family-names: Amjad
+    given-names: Zahra
+license: MIT
+abstract: >-
+  Five parallel compute kernels (heat diffusion, k-mer counting, Monte Carlo option pricing,
+  PageRank, distributed sample sort) in OpenMP and MPI, with serial baselines, verification
+  and scaling analysis.
+keywords: [HPC, MPI, OpenMP, parallel computing, benchmarking]
+repository-code: "https://github.com/Fatima-Ijaz/ParaForge-HPC-Kernel-Suite-"
