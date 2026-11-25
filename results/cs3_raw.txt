@@ -1,0 +1,77 @@
+serial M=100000000 seed=2026 time=3.285936 price=10.4473815570 se=1.471e-03 bs=10.4505835722 err=-3.202e-03 err_in_se=-2.18 Msamples_per_s=30.43
+serial M=100000000 seed=2026 time=3.025596 price=10.4473815570 se=1.471e-03 bs=10.4505835722 err=-3.202e-03 err_in_se=-2.18 Msamples_per_s=33.05
+serial M=100000000 seed=2026 time=3.097109 price=10.4473815570 se=1.471e-03 bs=10.4505835722 err=-3.202e-03 err_in_se=-2.18 Msamples_per_s=32.29
+parallel M=100000000 seed=2026 mode=good threads=1 time=2.910533 price=10.4473815570 se=1.471e-03 bs=10.4505835722 err=-3.202e-03 err_in_se=-2.18 Msamples_per_s=34.36
+parallel M=100000000 seed=2026 mode=good threads=1 time=3.125301 price=10.4473815570 se=1.471e-03 bs=10.4505835722 err=-3.202e-03 err_in_se=-2.18 Msamples_per_s=32.00
+parallel M=100000000 seed=2026 mode=good threads=1 time=3.107730 price=10.4473815570 se=1.471e-03 bs=10.4505835722 err=-3.202e-03 err_in_se=-2.18 Msamples_per_s=32.18
+parallel M=100000000 seed=2026 mode=good threads=2 time=1.565534 price=10.4471186717 se=1.472e-03 bs=10.4505835722 err=-3.465e-03 err_in_se=-2.35 Msamples_per_s=63.88
+parallel M=100000000 seed=2026 mode=good threads=2 time=1.612716 price=10.4471186717 se=1.472e-03 bs=10.4505835722 err=-3.465e-03 err_in_se=-2.35 Msamples_per_s=62.01
+parallel M=100000000 seed=2026 mode=good threads=2 time=1.485304 price=10.4471186717 se=1.472e-03 bs=10.4505835722 err=-3.465e-03 err_in_se=-2.35 Msamples_per_s=67.33
+parallel M=100000000 seed=2026 mode=good threads=4 time=1.575567 price=10.4486401678 se=1.472e-03 bs=10.4505835722 err=-1.943e-03 err_in_se=-1.32 Msamples_per_s=63.47
+parallel M=100000000 seed=2026 mode=good threads=4 time=1.587135 price=10.4486401678 se=1.472e-03 bs=10.4505835722 err=-1.943e-03 err_in_se=-1.32 Msamples_per_s=63.01
+parallel M=100000000 seed=2026 mode=good threads=4 time=1.518074 price=10.4486401678 se=1.472e-03 bs=10.4505835722 err=-1.943e-03 err_in_se=-1.32 Msamples_per_s=65.87
+parallel M=10000000 seed=2026 mode=shared threads=1 time=0.523579 price=10.4494348146 se=4.654e-03 bs=10.4505835722 err=-1.149e-03 err_in_se=-0.25 Msamples_per_s=19.10
+parallel M=10000000 seed=2026 mode=shared threads=1 time=0.533016 price=10.4494348146 se=4.654e-03 bs=10.4505835722 err=-1.149e-03 err_in_se=-0.25 Msamples_per_s=18.76
+parallel M=10000000 seed=2026 mode=shared threads=1 time=0.534005 price=10.4494348146 se=4.654e-03 bs=10.4505835722 err=-1.149e-03 err_in_se=-0.25 Msamples_per_s=18.73
+parallel M=10000000 seed=2026 mode=shared threads=2 time=1.670074 price=10.4494348146 se=4.654e-03 bs=10.4505835722 err=-1.149e-03 err_in_se=-0.25 Msamples_per_s=5.99
+parallel M=10000000 seed=2026 mode=shared threads=2 time=1.765327 price=10.4494348146 se=4.654e-03 bs=10.4505835722 err=-1.149e-03 err_in_se=-0.25 Msamples_per_s=5.66
+parallel M=10000000 seed=2026 mode=shared threads=2 time=1.727448 price=10.4494348146 se=4.654e-03 bs=10.4505835722 err=-1.149e-03 err_in_se=-0.25 Msamples_per_s=5.79
+TRIAL parallel M=10000000 seed=1 mode=good threads=8 time=0.146073 price=10.4506541266 se=4.654e-03 bs=10.4505835722 err=7.055e-05 err_in_se=0.02 Msamples_per_s=68.46
+TRIAL parallel M=10000000 seed=1 mode=sameseed threads=8 time=0.160590 price=10.4470054495 se=4.653e-03 bs=10.4505835722 err=-3.578e-03 err_in_se=-0.77 Msamples_per_s=62.27
+TRIAL parallel M=10000000 seed=2 mode=good threads=8 time=0.157073 price=10.4577134655 se=4.655e-03 bs=10.4505835722 err=7.130e-03 err_in_se=1.53 Msamples_per_s=63.66
+TRIAL parallel M=10000000 seed=2 mode=sameseed threads=8 time=0.156110 price=10.4550463422 se=4.656e-03 bs=10.4505835722 err=4.463e-03 err_in_se=0.96 Msamples_per_s=64.06
+TRIAL parallel M=10000000 seed=3 mode=good threads=8 time=0.150279 price=10.4551678624 se=4.656e-03 bs=10.4505835722 err=4.584e-03 err_in_se=0.98 Msamples_per_s=66.54
+TRIAL parallel M=10000000 seed=3 mode=sameseed threads=8 time=0.170382 price=10.4531931278 se=4.656e-03 bs=10.4505835722 err=2.610e-03 err_in_se=0.56 Msamples_per_s=58.69
+TRIAL parallel M=10000000 seed=4 mode=good threads=8 time=0.159958 price=10.4484154624 se=4.653e-03 bs=10.4505835722 err=-2.168e-03 err_in_se=-0.47 Msamples_per_s=62.52
+TRIAL parallel M=10000000 seed=4 mode=sameseed threads=8 time=0.155049 price=10.4240768024 se=4.647e-03 bs=10.4505835722 err=-2.651e-02 err_in_se=-5.70 Msamples_per_s=64.50
+TRIAL parallel M=10000000 seed=5 mode=good threads=8 time=0.148814 price=10.4427469159 se=4.651e-03 bs=10.4505835722 err=-7.837e-03 err_in_se=-1.68 Msamples_per_s=67.20
+TRIAL parallel M=10000000 seed=5 mode=sameseed threads=8 time=0.157079 price=10.4251961878 se=4.645e-03 bs=10.4505835722 err=-2.539e-02 err_in_se=-5.47 Msamples_per_s=63.66
+TRIAL parallel M=10000000 seed=6 mode=good threads=8 time=0.160141 price=10.4542878799 se=4.656e-03 bs=10.4505835722 err=3.704e-03 err_in_se=0.80 Msamples_per_s=62.44
+TRIAL parallel M=10000000 seed=6 mode=sameseed threads=8 time=0.158755 price=10.4333189283 se=4.641e-03 bs=10.4505835722 err=-1.726e-02 err_in_se=-3.72 Msamples_per_s=62.99
+TRIAL parallel M=10000000 seed=7 mode=good threads=8 time=0.151498 price=10.4456324861 se=4.652e-03 bs=10.4505835722 err=-4.951e-03 err_in_se=-1.06 Msamples_per_s=66.01
+TRIAL parallel M=10000000 seed=7 mode=sameseed threads=8 time=0.191012 price=10.4533787290 se=4.656e-03 bs=10.4505835722 err=2.795e-03 err_in_se=0.60 Msamples_per_s=52.35
+TRIAL parallel M=10000000 seed=8 mode=good threads=8 time=0.208900 price=10.4508695068 se=4.655e-03 bs=10.4505835722 err=2.859e-04 err_in_se=0.06 Msamples_per_s=47.87
+TRIAL parallel M=10000000 seed=8 mode=sameseed threads=8 time=0.232394 price=10.4657390864 se=4.658e-03 bs=10.4505835722 err=1.516e-02 err_in_se=3.25 Msamples_per_s=43.03
+TRIAL parallel M=10000000 seed=9 mode=good threads=8 time=0.172141 price=10.4614331393 se=4.657e-03 bs=10.4505835722 err=1.085e-02 err_in_se=2.33 Msamples_per_s=58.09
+TRIAL parallel M=10000000 seed=9 mode=sameseed threads=8 time=0.143957 price=10.4712052304 se=4.662e-03 bs=10.4505835722 err=2.062e-02 err_in_se=4.42 Msamples_per_s=69.47
+TRIAL parallel M=10000000 seed=10 mode=good threads=8 time=0.148917 price=10.4482193870 se=4.655e-03 bs=10.4505835722 err=-2.364e-03 err_in_se=-0.51 Msamples_per_s=67.15
+TRIAL parallel M=10000000 seed=10 mode=sameseed threads=8 time=0.145675 price=10.4443737563 se=4.652e-03 bs=10.4505835722 err=-6.210e-03 err_in_se=-1.33 Msamples_per_s=68.65
+TRIAL parallel M=10000000 seed=11 mode=good threads=8 time=0.151290 price=10.4520507529 se=4.656e-03 bs=10.4505835722 err=1.467e-03 err_in_se=0.32 Msamples_per_s=66.10
+TRIAL parallel M=10000000 seed=11 mode=sameseed threads=8 time=0.151376 price=10.4883172312 se=4.667e-03 bs=10.4505835722 err=3.773e-02 err_in_se=8.09 Msamples_per_s=66.06
+TRIAL parallel M=10000000 seed=12 mode=good threads=8 time=0.154978 price=10.4515027129 se=4.655e-03 bs=10.4505835722 err=9.191e-04 err_in_se=0.20 Msamples_per_s=64.53
+TRIAL parallel M=10000000 seed=12 mode=sameseed threads=8 time=0.171964 price=10.4344457848 se=4.646e-03 bs=10.4505835722 err=-1.614e-02 err_in_se=-3.47 Msamples_per_s=58.15
+TRIAL parallel M=10000000 seed=13 mode=good threads=8 time=0.148022 price=10.4528836061 se=4.657e-03 bs=10.4505835722 err=2.300e-03 err_in_se=0.49 Msamples_per_s=67.56
+TRIAL parallel M=10000000 seed=13 mode=sameseed threads=8 time=0.160070 price=10.4531625579 se=4.657e-03 bs=10.4505835722 err=2.579e-03 err_in_se=0.55 Msamples_per_s=62.47
+TRIAL parallel M=10000000 seed=14 mode=good threads=8 time=0.173141 price=10.4592224069 se=4.658e-03 bs=10.4505835722 err=8.639e-03 err_in_se=1.85 Msamples_per_s=57.76
+TRIAL parallel M=10000000 seed=14 mode=sameseed threads=8 time=0.157315 price=10.4522794786 se=4.659e-03 bs=10.4505835722 err=1.696e-03 err_in_se=0.36 Msamples_per_s=63.57
+TRIAL parallel M=10000000 seed=15 mode=good threads=8 time=0.147298 price=10.4494133762 se=4.656e-03 bs=10.4505835722 err=-1.170e-03 err_in_se=-0.25 Msamples_per_s=67.89
+TRIAL parallel M=10000000 seed=15 mode=sameseed threads=8 time=0.146218 price=10.4364737300 se=4.652e-03 bs=10.4505835722 err=-1.411e-02 err_in_se=-3.03 Msamples_per_s=68.39
+TRIAL parallel M=10000000 seed=16 mode=good threads=8 time=0.154324 price=10.4505320251 se=4.654e-03 bs=10.4505835722 err=-5.155e-05 err_in_se=-0.01 Msamples_per_s=64.80
+TRIAL parallel M=10000000 seed=16 mode=sameseed threads=8 time=0.149031 price=10.4565125401 se=4.659e-03 bs=10.4505835722 err=5.929e-03 err_in_se=1.27 Msamples_per_s=67.10
+TRIAL parallel M=10000000 seed=17 mode=good threads=8 time=0.161930 price=10.4592900375 se=4.658e-03 bs=10.4505835722 err=8.706e-03 err_in_se=1.87 Msamples_per_s=61.76
+TRIAL parallel M=10000000 seed=17 mode=sameseed threads=8 time=0.188283 price=10.4578039915 se=4.653e-03 bs=10.4505835722 err=7.220e-03 err_in_se=1.55 Msamples_per_s=53.11
+TRIAL parallel M=10000000 seed=18 mode=good threads=8 time=0.198830 price=10.4547968299 se=4.655e-03 bs=10.4505835722 err=4.213e-03 err_in_se=0.91 Msamples_per_s=50.29
+TRIAL parallel M=10000000 seed=18 mode=sameseed threads=8 time=0.192344 price=10.4635925663 se=4.658e-03 bs=10.4505835722 err=1.301e-02 err_in_se=2.79 Msamples_per_s=51.99
+TRIAL parallel M=10000000 seed=19 mode=good threads=8 time=0.200260 price=10.4476342496 se=4.654e-03 bs=10.4505835722 err=-2.949e-03 err_in_se=-0.63 Msamples_per_s=49.94
+TRIAL parallel M=10000000 seed=19 mode=sameseed threads=8 time=0.191577 price=10.4701045432 se=4.662e-03 bs=10.4505835722 err=1.952e-02 err_in_se=4.19 Msamples_per_s=52.20
+TRIAL parallel M=10000000 seed=20 mode=good threads=8 time=0.155728 price=10.4508926248 se=4.653e-03 bs=10.4505835722 err=3.091e-04 err_in_se=0.07 Msamples_per_s=64.21
+TRIAL parallel M=10000000 seed=20 mode=sameseed threads=8 time=0.142309 price=10.4537986231 se=4.660e-03 bs=10.4505835722 err=3.215e-03 err_in_se=0.69 Msamples_per_s=70.27
+FIXED parallel M=200000000 seed=2026 mode=good threads=2 time=3.152183 price=10.4477490984 se=1.041e-03 bs=10.4505835722 err=-2.834e-03 err_in_se=-2.72 Msamples_per_s=63.45
+FIXED parallel M=200000000 seed=2026 mode=good threads=2 time=3.839093 price=10.4477490984 se=1.041e-03 bs=10.4505835722 err=-2.834e-03 err_in_se=-2.72 Msamples_per_s=52.10
+FIXED parallel M=200000000 seed=2026 mode=good threads=2 time=3.191014 price=10.4477490984 se=1.041e-03 bs=10.4505835722 err=-2.834e-03 err_in_se=-2.72 Msamples_per_s=62.68
+REPRO parallel M=10000000 seed=2026 mode=good threads=1 time=0.354443 price=10.4563745024 se=4.656e-03 bs=10.4505835722 err=5.791e-03 err_in_se=1.24 Msamples_per_s=28.21
+REPRO parallel M=10000000 seed=2026 mode=good threads=1 time=0.323880 price=10.4563745024 se=4.656e-03 bs=10.4505835722 err=5.791e-03 err_in_se=1.24 Msamples_per_s=30.88
+REPRO parallel M=10000000 seed=2026 mode=good threads=2 time=0.178078 price=10.4513862831 se=4.655e-03 bs=10.4505835722 err=8.027e-04 err_in_se=0.17 Msamples_per_s=56.16
+REPRO parallel M=10000000 seed=2026 mode=good threads=2 time=0.180772 price=10.4513862831 se=4.655e-03 bs=10.4505835722 err=8.027e-04 err_in_se=0.17 Msamples_per_s=55.32
+REPRO parallel M=10000000 seed=2026 mode=good threads=3 time=0.215474 price=10.4522212987 se=4.655e-03 bs=10.4505835722 err=1.638e-03 err_in_se=0.35 Msamples_per_s=46.41
+REPRO parallel M=10000000 seed=2026 mode=good threads=3 time=0.191407 price=10.4522212987 se=4.655e-03 bs=10.4505835722 err=1.638e-03 err_in_se=0.35 Msamples_per_s=52.24
+REPRO parallel M=10000000 seed=2026 mode=good threads=4 time=0.168098 price=10.4478531840 se=4.655e-03 bs=10.4505835722 err=-2.730e-03 err_in_se=-0.59 Msamples_per_s=59.49
+REPRO parallel M=10000000 seed=2026 mode=good threads=4 time=0.163880 price=10.4478531840 se=4.655e-03 bs=10.4505835722 err=-2.730e-03 err_in_se=-0.59 Msamples_per_s=61.02
+REPRO parallel M=10000000 seed=2026 mode=good threads=8 time=0.194614 price=10.4524526701 se=4.655e-03 bs=10.4505835722 err=1.869e-03 err_in_se=0.40 Msamples_per_s=51.38
+REPRO parallel M=10000000 seed=2026 mode=good threads=8 time=0.207047 price=10.4524526701 se=4.655e-03 bs=10.4505835722 err=1.869e-03 err_in_se=0.40 Msamples_per_s=48.30
+MPI mpi M=100000000 seed=2026 ranks=1 time=3.524885 price=10.4473815570 se=1.471e-03 bs=10.4505835722 err=-3.202e-03 Msamples_per_s=28.37
+MPI mpi M=100000000 seed=2026 ranks=1 time=3.498248 price=10.4473815570 se=1.471e-03 bs=10.4505835722 err=-3.202e-03 Msamples_per_s=28.59
+MPI mpi M=100000000 seed=2026 ranks=1 time=2.972218 price=10.4473815570 se=1.471e-03 bs=10.4505835722 err=-3.202e-03 Msamples_per_s=33.64
+MPI mpi M=100000000 seed=2026 ranks=2 time=1.896162 price=10.4471186717 se=1.472e-03 bs=10.4505835722 err=-3.465e-03 Msamples_per_s=52.74
+MPI mpi M=100000000 seed=2026 ranks=2 time=2.603759 price=10.4471186717 se=1.472e-03 bs=10.4505835722 err=-3.465e-03 Msamples_per_s=38.41
+MPI mpi M=100000000 seed=2026 ranks=2 time=1.971398 price=10.4471186717 se=1.472e-03 bs=10.4505835722 err=-3.465e-03 Msamples_per_s=50.73

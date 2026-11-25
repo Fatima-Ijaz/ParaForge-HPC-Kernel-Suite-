@@ -1,0 +1,150 @@
+serial N=1024 T=500 K=50 time=0.407691 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+serial N=1024 T=500 K=50 time=0.396948 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+serial N=1024 T=500 K=50 time=0.421540 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=1 decomp=1 dims=1x1 mode=b time=0.403922 comm=0.000187 allreduce=0.000035 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=1 decomp=1 dims=1x1 mode=b time=0.406948 comm=0.000199 allreduce=0.000040 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=1 decomp=1 dims=1x1 mode=b time=0.414530 comm=0.000220 allreduce=0.000039 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=2 decomp=1 dims=2x1 mode=b time=0.208227 comm=0.013130 allreduce=0.001118 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=2 decomp=1 dims=2x1 mode=b time=0.208243 comm=0.015206 allreduce=0.000985 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=2 decomp=1 dims=2x1 mode=b time=0.215131 comm=0.015627 allreduce=0.001072 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=4 decomp=1 dims=4x1 mode=b time=0.240821 comm=0.144775 allreduce=0.006368 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=4 decomp=1 dims=4x1 mode=b time=0.226652 comm=0.127456 allreduce=0.007010 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=4 decomp=1 dims=4x1 mode=b time=0.228172 comm=0.129842 allreduce=0.004443 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=8 decomp=1 dims=8x1 mode=b time=0.259801 comm=0.206991 allreduce=0.010490 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=8 decomp=1 dims=8x1 mode=b time=0.259017 comm=0.202037 allreduce=0.011502 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=8 decomp=1 dims=8x1 mode=b time=0.283958 comm=0.232020 allreduce=0.011645 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=1 decomp=1 dims=1x1 mode=nb time=0.419977 comm=0.000476 allreduce=0.000037 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=1 decomp=1 dims=1x1 mode=nb time=0.399408 comm=0.000525 allreduce=0.000037 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=1 decomp=1 dims=1x1 mode=nb time=0.408638 comm=0.000509 allreduce=0.000038 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=2 decomp=1 dims=2x1 mode=nb time=0.224819 comm=0.021076 allreduce=0.000125 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=2 decomp=1 dims=2x1 mode=nb time=0.234420 comm=0.046500 allreduce=0.001757 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=2 decomp=1 dims=2x1 mode=nb time=0.230977 comm=0.024433 allreduce=0.001558 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=4 decomp=1 dims=4x1 mode=nb time=0.276634 comm=0.177625 allreduce=0.010595 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=4 decomp=1 dims=4x1 mode=nb time=0.284429 comm=0.180548 allreduce=0.010111 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=4 decomp=1 dims=4x1 mode=nb time=0.223592 comm=0.123641 allreduce=0.004324 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=8 decomp=1 dims=8x1 mode=nb time=0.256502 comm=0.206641 allreduce=0.015404 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=8 decomp=1 dims=8x1 mode=nb time=0.221660 comm=0.173687 allreduce=0.008287 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=8 decomp=1 dims=8x1 mode=nb time=0.226083 comm=0.175870 allreduce=0.014092 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=1 decomp=2 dims=1x1 mode=b time=0.385837 comm=0.000160 allreduce=0.000039 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=1 decomp=2 dims=1x1 mode=b time=0.402111 comm=0.000233 allreduce=0.000035 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=1 decomp=2 dims=1x1 mode=b time=0.387957 comm=0.000186 allreduce=0.000034 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=2 decomp=2 dims=2x1 mode=b time=0.216492 comm=0.021611 allreduce=0.001098 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=2 decomp=2 dims=2x1 mode=b time=0.217933 comm=0.029050 allreduce=0.003258 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=2 decomp=2 dims=2x1 mode=b time=0.221990 comm=0.023479 allreduce=0.003922 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=4 decomp=2 dims=2x2 mode=b time=0.226605 comm=0.130385 allreduce=0.006086 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=4 decomp=2 dims=2x2 mode=b time=0.222001 comm=0.128045 allreduce=0.003342 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=4 decomp=2 dims=2x2 mode=b time=0.292640 comm=0.195929 allreduce=0.007503 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=8 decomp=2 dims=4x2 mode=b time=0.291500 comm=0.242070 allreduce=0.011804 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=8 decomp=2 dims=4x2 mode=b time=0.266946 comm=0.213855 allreduce=0.008930 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=8 decomp=2 dims=4x2 mode=b time=0.268488 comm=0.219147 allreduce=0.007984 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=1 decomp=2 dims=1x1 mode=nb time=0.387891 comm=0.000472 allreduce=0.000035 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=1 decomp=2 dims=1x1 mode=nb time=0.384660 comm=0.000479 allreduce=0.000037 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=1 decomp=2 dims=1x1 mode=nb time=0.417123 comm=0.000482 allreduce=0.000074 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=2 decomp=2 dims=2x1 mode=nb time=0.207506 comm=0.020047 allreduce=0.000354 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=2 decomp=2 dims=2x1 mode=nb time=0.209782 comm=0.015204 allreduce=0.000069 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=2 decomp=2 dims=2x1 mode=nb time=0.214109 comm=0.017669 allreduce=0.001698 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=4 decomp=2 dims=2x2 mode=nb time=0.283377 comm=0.182733 allreduce=0.005341 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=4 decomp=2 dims=2x2 mode=nb time=0.303923 comm=0.202853 allreduce=0.005769 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=4 decomp=2 dims=2x2 mode=nb time=0.231250 comm=0.130202 allreduce=0.004817 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=8 decomp=2 dims=4x2 mode=nb time=0.241839 comm=0.189975 allreduce=0.006750 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=8 decomp=2 dims=4x2 mode=nb time=0.273481 comm=0.219539 allreduce=0.009333 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+parallel N=1024 T=500 K=50 p=8 decomp=2 dims=4x2 mode=nb time=0.246759 comm=0.195473 allreduce=0.006195 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+serial N=4096 T=500 K=50 time=13.911188 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+serial N=4096 T=500 K=50 time=14.688854 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+serial N=4096 T=500 K=50 time=14.044179 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=1 decomp=1 dims=1x1 mode=b time=13.941807 comm=0.000605 allreduce=0.000050 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=1 decomp=1 dims=1x1 mode=b time=13.324924 comm=0.000483 allreduce=0.000043 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=1 decomp=1 dims=1x1 mode=b time=13.081717 comm=0.000478 allreduce=0.000046 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=2 decomp=1 dims=2x1 mode=b time=7.404576 comm=0.908758 allreduce=0.017403 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=2 decomp=1 dims=2x1 mode=b time=7.048411 comm=0.306707 allreduce=0.018016 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=2 decomp=1 dims=2x1 mode=b time=7.535649 comm=0.699412 allreduce=0.033523 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=4 decomp=1 dims=4x1 mode=b time=7.898628 comm=3.271177 allreduce=0.065114 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=4 decomp=1 dims=4x1 mode=b time=7.759042 comm=2.967160 allreduce=0.032532 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=4 decomp=1 dims=4x1 mode=b time=7.135828 comm=2.634073 allreduce=0.029644 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=8 decomp=1 dims=8x1 mode=b time=7.641111 comm=5.444054 allreduce=0.170353 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=8 decomp=1 dims=8x1 mode=b time=9.540000 comm=6.309269 allreduce=0.119864 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=8 decomp=1 dims=8x1 mode=b time=7.496415 comm=5.154021 allreduce=0.099611 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=1 decomp=1 dims=1x1 mode=nb time=15.556055 comm=0.001455 allreduce=0.000073 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=1 decomp=1 dims=1x1 mode=nb time=14.949964 comm=0.001185 allreduce=0.000074 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=1 decomp=1 dims=1x1 mode=nb time=14.073000 comm=0.001176 allreduce=0.000047 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=2 decomp=1 dims=2x1 mode=nb time=6.999885 comm=0.275091 allreduce=0.000143 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=2 decomp=1 dims=2x1 mode=nb time=7.111413 comm=0.328359 allreduce=0.013919 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=2 decomp=1 dims=2x1 mode=nb time=6.865760 comm=0.488927 allreduce=0.001881 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=4 decomp=1 dims=4x1 mode=nb time=6.928436 comm=0.466794 allreduce=0.089168 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=4 decomp=1 dims=4x1 mode=nb time=6.941123 comm=0.640251 allreduce=0.078194 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=4 decomp=1 dims=4x1 mode=nb time=6.880303 comm=0.948790 allreduce=0.137633 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=8 decomp=1 dims=8x1 mode=nb time=6.932918 comm=3.917709 allreduce=0.182811 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=8 decomp=1 dims=8x1 mode=nb time=6.494392 comm=3.641493 allreduce=0.164354 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=8 decomp=1 dims=8x1 mode=nb time=6.697347 comm=3.684821 allreduce=0.249295 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=1 decomp=2 dims=1x1 mode=b time=13.646017 comm=0.000502 allreduce=0.000072 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=1 decomp=2 dims=1x1 mode=b time=14.843008 comm=0.000567 allreduce=0.000048 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=1 decomp=2 dims=1x1 mode=b time=14.847076 comm=0.000540 allreduce=0.000047 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=2 decomp=2 dims=2x1 mode=b time=8.830135 comm=0.562464 allreduce=0.015153 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=2 decomp=2 dims=2x1 mode=b time=7.760145 comm=0.244241 allreduce=0.011035 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=2 decomp=2 dims=2x1 mode=b time=8.045056 comm=0.425648 allreduce=0.005329 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=4 decomp=2 dims=2x2 mode=b time=8.166537 comm=3.218294 allreduce=0.040460 checksum=4.816881373281e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=4 decomp=2 dims=2x2 mode=b time=9.195438 comm=3.588809 allreduce=0.053542 checksum=4.816881373281e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=4 decomp=2 dims=2x2 mode=b time=8.679198 comm=3.826125 allreduce=0.060413 checksum=4.816881373281e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=8 decomp=2 dims=4x2 mode=b time=7.376290 comm=5.470186 allreduce=0.103296 checksum=4.816881373281e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=8 decomp=2 dims=4x2 mode=b time=8.280692 comm=5.819951 allreduce=0.093189 checksum=4.816881373281e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=8 decomp=2 dims=4x2 mode=b time=9.170454 comm=6.093307 allreduce=0.113496 checksum=4.816881373281e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=1 decomp=2 dims=1x1 mode=nb time=16.054837 comm=0.001531 allreduce=0.000044 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=1 decomp=2 dims=1x1 mode=nb time=17.599794 comm=0.001482 allreduce=0.000051 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=1 decomp=2 dims=1x1 mode=nb time=16.055843 comm=0.001507 allreduce=0.000048 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=2 decomp=2 dims=2x1 mode=nb time=7.591179 comm=0.442321 allreduce=0.001849 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=2 decomp=2 dims=2x1 mode=nb time=7.276305 comm=0.252852 allreduce=0.000147 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=2 decomp=2 dims=2x1 mode=nb time=6.867673 comm=0.323161 allreduce=0.025939 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=4 decomp=2 dims=2x2 mode=nb time=6.825274 comm=2.294115 allreduce=0.037340 checksum=4.816881373281e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=4 decomp=2 dims=2x2 mode=nb time=6.591982 comm=1.881622 allreduce=0.097082 checksum=4.816881373281e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=4 decomp=2 dims=2x2 mode=nb time=6.906756 comm=2.251243 allreduce=0.171202 checksum=4.816881373281e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=8 decomp=2 dims=4x2 mode=nb time=7.548183 comm=5.008691 allreduce=0.130287 checksum=4.816881373281e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=8 decomp=2 dims=4x2 mode=nb time=7.274182 comm=4.741264 allreduce=0.108970 checksum=4.816881373281e+06 maxdiff=4.839310e-02
+parallel N=4096 T=500 K=50 p=8 decomp=2 dims=4x2 mode=nb time=7.117002 comm=4.636700 allreduce=0.099057 checksum=4.816881373281e+06 maxdiff=4.839310e-02
+WEAK parallel N=1024 T=500 K=50 p=1 decomp=2 dims=1x1 mode=nb time=0.378006 comm=0.000638 allreduce=0.000039 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+WEAK parallel N=1024 T=500 K=50 p=1 decomp=2 dims=1x1 mode=nb time=0.390141 comm=0.000598 allreduce=0.000037 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+WEAK parallel N=1024 T=500 K=50 p=1 decomp=2 dims=1x1 mode=nb time=0.425126 comm=0.000525 allreduce=0.000075 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+WEAK parallel N=1448 T=500 K=50 p=2 decomp=2 dims=2x1 mode=nb time=0.423960 comm=0.064914 allreduce=0.000115 checksum=1.693919607679e+06 maxdiff=4.839310e-02
+WEAK parallel N=1448 T=500 K=50 p=2 decomp=2 dims=2x1 mode=nb time=0.590065 comm=0.023199 allreduce=0.000100 checksum=1.693919607679e+06 maxdiff=4.839310e-02
+WEAK parallel N=1448 T=500 K=50 p=2 decomp=2 dims=2x1 mode=nb time=0.404017 comm=0.030665 allreduce=0.000102 checksum=1.693919607679e+06 maxdiff=4.839310e-02
+WEAK parallel N=2048 T=500 K=50 p=4 decomp=2 dims=2x2 mode=nb time=0.872772 comm=0.451086 allreduce=0.027134 checksum=2.401539343088e+06 maxdiff=4.839310e-02
+WEAK parallel N=2048 T=500 K=50 p=4 decomp=2 dims=2x2 mode=nb time=0.984527 comm=0.548489 allreduce=0.027387 checksum=2.401539343088e+06 maxdiff=4.839310e-02
+WEAK parallel N=2048 T=500 K=50 p=4 decomp=2 dims=2x2 mode=nb time=0.930968 comm=0.523249 allreduce=0.007793 checksum=2.401539343088e+06 maxdiff=4.839310e-02
+WEAK parallel N=2896 T=500 K=50 p=8 decomp=2 dims=4x2 mode=nb time=1.925600 comm=1.459070 allreduce=0.055441 checksum=3.401641902465e+06 maxdiff=4.839310e-02
+WEAK parallel N=2896 T=500 K=50 p=8 decomp=2 dims=4x2 mode=nb time=2.290617 comm=1.739711 allreduce=0.036321 checksum=3.401641902465e+06 maxdiff=4.839310e-02
+WEAK parallel N=2896 T=500 K=50 p=8 decomp=2 dims=4x2 mode=nb time=1.864522 comm=1.400515 allreduce=0.034861 checksum=3.401641902465e+06 maxdiff=4.839310e-02
+KTEST parallel N=1024 T=500 K=0 p=2 decomp=2 dims=2x1 mode=nb time=0.202416 comm=0.026196 allreduce=0.000000 checksum=1.193868327990e+06 maxdiff=0.000000e+00
+KTEST parallel N=1024 T=500 K=0 p=2 decomp=2 dims=2x1 mode=nb time=0.196626 comm=0.017080 allreduce=0.000000 checksum=1.193868327990e+06 maxdiff=0.000000e+00
+KTEST parallel N=1024 T=500 K=0 p=2 decomp=2 dims=2x1 mode=nb time=0.220141 comm=0.041184 allreduce=0.000000 checksum=1.193868327990e+06 maxdiff=0.000000e+00
+KTEST parallel N=1024 T=500 K=1 p=2 decomp=2 dims=2x1 mode=nb time=0.545431 comm=0.045695 allreduce=0.005560 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+KTEST parallel N=1024 T=500 K=1 p=2 decomp=2 dims=2x1 mode=nb time=0.596406 comm=0.101260 allreduce=0.004998 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+KTEST parallel N=1024 T=500 K=1 p=2 decomp=2 dims=2x1 mode=nb time=0.552540 comm=0.062294 allreduce=0.002402 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+KTEST parallel N=1024 T=500 K=50 p=2 decomp=2 dims=2x1 mode=nb time=0.224413 comm=0.031151 allreduce=0.000105 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+KTEST parallel N=1024 T=500 K=50 p=2 decomp=2 dims=2x1 mode=nb time=0.229159 comm=0.021878 allreduce=0.000746 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+KTEST parallel N=1024 T=500 K=50 p=2 decomp=2 dims=2x1 mode=nb time=0.205064 comm=0.015765 allreduce=0.000908 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+KTEST parallel N=1024 T=500 K=0 p=4 decomp=2 dims=2x2 mode=nb time=0.284931 comm=0.187425 allreduce=0.000000 checksum=1.193868327990e+06 maxdiff=0.000000e+00
+KTEST parallel N=1024 T=500 K=0 p=4 decomp=2 dims=2x2 mode=nb time=0.284353 comm=0.189098 allreduce=0.000000 checksum=1.193868327990e+06 maxdiff=0.000000e+00
+KTEST parallel N=1024 T=500 K=0 p=4 decomp=2 dims=2x2 mode=nb time=0.218446 comm=0.124334 allreduce=0.000000 checksum=1.193868327990e+06 maxdiff=0.000000e+00
+KTEST parallel N=1024 T=500 K=1 p=4 decomp=2 dims=2x2 mode=nb time=0.606296 comm=0.247056 allreduce=0.196983 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+KTEST parallel N=1024 T=500 K=1 p=4 decomp=2 dims=2x2 mode=nb time=0.561102 comm=0.191432 allreduce=0.144790 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+KTEST parallel N=1024 T=500 K=1 p=4 decomp=2 dims=2x2 mode=nb time=0.724428 comm=0.230572 allreduce=0.249132 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+KTEST parallel N=1024 T=500 K=50 p=4 decomp=2 dims=2x2 mode=nb time=0.276455 comm=0.176586 allreduce=0.004994 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+KTEST parallel N=1024 T=500 K=50 p=4 decomp=2 dims=2x2 mode=nb time=0.295257 comm=0.194607 allreduce=0.003489 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+KTEST parallel N=1024 T=500 K=50 p=4 decomp=2 dims=2x2 mode=nb time=0.248691 comm=0.150458 allreduce=0.001583 checksum=1.193868327990e+06 maxdiff=4.839310e-02
+KTEST parallel N=4096 T=500 K=0 p=2 decomp=2 dims=2x1 mode=nb time=7.207847 comm=0.441449 allreduce=0.000000 checksum=4.816881373280e+06 maxdiff=0.000000e+00
+KTEST parallel N=4096 T=500 K=0 p=2 decomp=2 dims=2x1 mode=nb time=7.060233 comm=0.335909 allreduce=0.000000 checksum=4.816881373280e+06 maxdiff=0.000000e+00
+KTEST parallel N=4096 T=500 K=0 p=2 decomp=2 dims=2x1 mode=nb time=6.757068 comm=0.204763 allreduce=0.000000 checksum=4.816881373280e+06 maxdiff=0.000000e+00
+KTEST parallel N=4096 T=500 K=1 p=2 decomp=2 dims=2x1 mode=nb time=10.545289 comm=0.699798 allreduce=0.082368 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+KTEST parallel N=4096 T=500 K=1 p=2 decomp=2 dims=2x1 mode=nb time=10.522939 comm=0.780084 allreduce=0.096138 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+KTEST parallel N=4096 T=500 K=1 p=2 decomp=2 dims=2x1 mode=nb time=10.646097 comm=0.955218 allreduce=0.040192 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+KTEST parallel N=4096 T=500 K=50 p=2 decomp=2 dims=2x1 mode=nb time=7.006829 comm=0.369009 allreduce=0.011900 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+KTEST parallel N=4096 T=500 K=50 p=2 decomp=2 dims=2x1 mode=nb time=7.075695 comm=0.230390 allreduce=0.000130 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+KTEST parallel N=4096 T=500 K=50 p=2 decomp=2 dims=2x1 mode=nb time=7.826314 comm=0.517962 allreduce=0.013387 checksum=4.816881373280e+06 maxdiff=4.839310e-02
+KTEST parallel N=4096 T=500 K=0 p=4 decomp=2 dims=2x2 mode=nb time=6.951967 comm=2.760122 allreduce=0.000000 checksum=4.816881373281e+06 maxdiff=0.000000e+00
+KTEST parallel N=4096 T=500 K=0 p=4 decomp=2 dims=2x2 mode=nb time=7.446605 comm=2.647125 allreduce=0.000000 checksum=4.816881373281e+06 maxdiff=0.000000e+00
+KTEST parallel N=4096 T=500 K=0 p=4 decomp=2 dims=2x2 mode=nb time=7.423967 comm=2.858643 allreduce=0.000000 checksum=4.816881373281e+06 maxdiff=0.000000e+00
+KTEST parallel N=4096 T=500 K=1 p=4 decomp=2 dims=2x2 mode=nb time=10.153924 comm=0.955724 allreduce=1.252669 checksum=4.816881373281e+06 maxdiff=4.839310e-02
+KTEST parallel N=4096 T=500 K=1 p=4 decomp=2 dims=2x2 mode=nb time=9.845530 comm=1.132759 allreduce=1.330567 checksum=4.816881373281e+06 maxdiff=4.839310e-02
+KTEST parallel N=4096 T=500 K=1 p=4 decomp=2 dims=2x2 mode=nb time=9.611972 comm=0.991885 allreduce=1.227191 checksum=4.816881373281e+06 maxdiff=4.839310e-02
+KTEST parallel N=4096 T=500 K=50 p=4 decomp=2 dims=2x2 mode=nb time=7.026049 comm=2.230554 allreduce=0.061718 checksum=4.816881373281e+06 maxdiff=4.839310e-02
+KTEST parallel N=4096 T=500 K=50 p=4 decomp=2 dims=2x2 mode=nb time=6.632593 comm=2.060977 allreduce=0.042313 checksum=4.816881373281e+06 maxdiff=4.839310e-02
+KTEST parallel N=4096 T=500 K=50 p=4 decomp=2 dims=2x2 mode=nb time=6.599778 comm=2.071317 allreduce=0.021416 checksum=4.816881373281e+06 maxdiff=4.839310e-02

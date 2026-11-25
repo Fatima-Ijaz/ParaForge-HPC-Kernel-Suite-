@@ -1,0 +1,40 @@
+serial N=100000000 dist=u time=10.595669 fp=f78da8e8afb99b55 PASS
+serial N=100000000 dist=u time=10.688559 fp=f78da8e8afb99b55 PASS
+serial N=100000000 dist=u time=10.704011 fp=f78da8e8afb99b55 PASS
+parallel N=100000000 dist=u os=1 p=1 time=10.852513 local_sort=10.296909 sampling=0.000016 alltoallv=0.542542 merge=0.000005 a2av_call=0.542500 max_over_mean=1.0000 counts=100000000 PASS
+parallel N=100000000 dist=u os=1 p=1 time=11.075112 local_sort=10.440209 sampling=0.000004 alltoallv=0.621722 merge=0.000018 a2av_call=0.621624 max_over_mean=1.0000 counts=100000000 PASS
+parallel N=100000000 dist=u os=1 p=1 time=11.124310 local_sort=10.588414 sampling=0.000009 alltoallv=0.521838 merge=0.000004 a2av_call=0.521773 max_over_mean=1.0000 counts=100000000 PASS
+parallel N=100000000 dist=u os=1 p=2 time=5.933361 local_sort=5.235043 sampling=0.000068 alltoallv=0.290732 merge=0.400681 a2av_call=0.290674 max_over_mean=1.0000 counts=50000862,49999138 PASS
+parallel N=100000000 dist=u os=1 p=2 time=6.044091 local_sort=5.348023 sampling=0.000169 alltoallv=0.311610 merge=0.376955 a2av_call=0.311516 max_over_mean=1.0000 counts=50000862,49999138 PASS
+parallel N=100000000 dist=u os=1 p=2 time=6.199402 local_sort=5.514511 sampling=0.000087 alltoallv=0.243159 merge=0.433747 a2av_call=0.243118 max_over_mean=1.0000 counts=50000862,49999138 PASS
+parallel N=100000000 dist=u os=1 p=4 time=6.180388 local_sort=5.233211 sampling=0.000368 alltoallv=0.282885 merge=0.658963 a2av_call=0.278145 max_over_mean=1.0003 counts=25007129,24992079,24996282,25004510 PASS
+parallel N=100000000 dist=u os=1 p=4 time=6.032811 local_sort=5.154901 sampling=0.000200 alltoallv=0.237768 merge=0.646390 a2av_call=0.228608 max_over_mean=1.0003 counts=25007129,24992079,24996282,25004510 PASS
+parallel N=100000000 dist=u os=1 p=4 time=6.166184 local_sort=5.244561 sampling=0.000194 alltoallv=0.232378 merge=0.689271 a2av_call=0.228551 max_over_mean=1.0003 counts=25007129,24992079,24996282,25004510 PASS
+serial N=100000000 dist=z time=4.376345 fp=30fc95428543f0fb PASS
+serial N=100000000 dist=z time=4.232742 fp=30fc95428543f0fb PASS
+serial N=100000000 dist=z time=4.315401 fp=30fc95428543f0fb PASS
+parallel N=100000000 dist=z os=1 p=1 time=4.724206 local_sort=4.070684 sampling=0.000004 alltoallv=0.630268 merge=0.000006 a2av_call=0.630220 max_over_mean=1.0000 counts=100000000 PASS
+parallel N=100000000 dist=z os=1 p=1 time=4.709611 local_sort=4.042029 sampling=0.000028 alltoallv=0.653987 merge=0.000004 a2av_call=0.653899 max_over_mean=1.0000 counts=100000000 PASS
+parallel N=100000000 dist=z os=1 p=1 time=4.707393 local_sort=4.062927 sampling=0.000026 alltoallv=0.630407 merge=0.000005 a2av_call=0.630300 max_over_mean=1.0000 counts=100000000 PASS
+parallel N=100000000 dist=z os=1 p=2 time=2.622758 local_sort=2.160956 sampling=0.000039 alltoallv=0.313117 merge=0.141109 a2av_call=0.313074 max_over_mean=1.0056 counts=50278288,49721712 PASS
+parallel N=100000000 dist=z os=1 p=2 time=2.622805 local_sort=2.155353 sampling=0.000139 alltoallv=0.309487 merge=0.150295 a2av_call=0.309440 max_over_mean=1.0056 counts=50278288,49721712 PASS
+parallel N=100000000 dist=z os=1 p=2 time=2.543626 local_sort=2.085954 sampling=0.000159 alltoallv=0.308348 merge=0.142076 a2av_call=0.308279 max_over_mean=1.0056 counts=50278288,49721712 PASS
+parallel N=100000000 dist=z os=1 p=4 time=2.689357 local_sort=2.131574 sampling=0.000243 alltoallv=0.333678 merge=0.218530 a2av_call=0.330271 max_over_mean=1.1095 counts=27737924,22540364,24780256,24941456 PASS
+parallel N=100000000 dist=z os=1 p=4 time=2.470725 local_sort=2.054418 sampling=0.000133 alltoallv=0.214104 merge=0.203638 a2av_call=0.209104 max_over_mean=1.1095 counts=27737924,22540364,24780256,24941456 PASS
+parallel N=100000000 dist=z os=1 p=4 time=2.642949 local_sort=2.156274 sampling=0.000107 alltoallv=0.262629 merge=0.224187 a2av_call=0.258944 max_over_mean=1.1095 counts=27737924,22540364,24780256,24941456 PASS
+OS parallel N=100000000 dist=u os=1 p=4 time=6.208006 local_sort=5.329400 sampling=0.000206 alltoallv=0.212902 merge=0.669229 a2av_call=0.208224 max_over_mean=1.0003 counts=25007129,24992079,24996282,25004510 PASS
+OS parallel N=100000000 dist=u os=4 p=4 time=6.184622 local_sort=5.335098 sampling=0.000216 alltoallv=0.201437 merge=0.647347 a2av_call=0.196497 max_over_mean=1.0003 counts=25007129,24992079,24996282,25004510 PASS
+OS parallel N=100000000 dist=u os=16 p=4 time=6.008153 local_sort=5.147502 sampling=0.000281 alltoallv=0.192392 merge=0.664559 a2av_call=0.190312 max_over_mean=1.0003 counts=25007129,24992079,24996282,25004510 PASS
+OS parallel N=100000000 dist=u os=64 p=4 time=6.135424 local_sort=5.195960 sampling=0.000377 alltoallv=0.267254 merge=0.668463 a2av_call=0.265034 max_over_mean=1.0003 counts=25007129,24992079,24996282,25004510 PASS
+OS parallel N=100000000 dist=u os=1 p=8 time=6.523984 local_sort=5.082407 sampling=0.000574 alltoallv=0.257677 merge=1.209807 a2av_call=0.226110 max_over_mean=1.0005 counts=12506588,12500490,12497696,12491511,12501213,12499397,12497543,12505562 PASS
+OS parallel N=100000000 dist=u os=4 p=8 time=6.287992 local_sort=5.022271 sampling=0.000896 alltoallv=0.188377 merge=1.087998 a2av_call=0.175106 max_over_mean=1.0005 counts=12506588,12500490,12497696,12491511,12501213,12499397,12497543,12505562 PASS
+OS parallel N=100000000 dist=u os=16 p=8 time=6.241241 local_sort=5.086153 sampling=0.000887 alltoallv=0.202573 merge=0.963794 a2av_call=0.190240 max_over_mean=1.0005 counts=12506588,12500490,12497696,12491511,12501213,12499397,12497543,12505562 PASS
+OS parallel N=100000000 dist=u os=64 p=8 time=6.155969 local_sort=4.947640 sampling=0.001134 alltoallv=0.180679 merge=1.046861 a2av_call=0.164590 max_over_mean=1.0005 counts=12506588,12500490,12497696,12491511,12501213,12499397,12497543,12505562 PASS
+OS parallel N=100000000 dist=z os=1 p=4 time=2.414212 local_sort=2.018677 sampling=0.000116 alltoallv=0.179482 merge=0.214024 a2av_call=0.174019 max_over_mean=1.1095 counts=27737924,22540364,24780256,24941456 PASS
+OS parallel N=100000000 dist=z os=4 p=4 time=2.533060 local_sort=2.087928 sampling=0.000144 alltoallv=0.217060 merge=0.222696 a2av_call=0.211981 max_over_mean=1.1095 counts=27737924,22540364,24780256,24941456 PASS
+OS parallel N=100000000 dist=z os=16 p=4 time=2.428333 local_sort=2.063408 sampling=0.000196 alltoallv=0.168826 merge=0.194119 a2av_call=0.165819 max_over_mean=1.1095 counts=27737924,22540364,24780256,24941456 PASS
+OS parallel N=100000000 dist=z os=64 p=4 time=2.447990 local_sort=2.061896 sampling=0.000193 alltoallv=0.189665 merge=0.196262 a2av_call=0.188124 max_over_mean=1.1095 counts=27737924,22540364,24780256,24941456 PASS
+OS parallel N=100000000 dist=z os=1 p=8 time=2.755748 local_sort=2.080025 sampling=0.000593 alltoallv=0.199142 merge=0.488394 a2av_call=0.178649 max_over_mean=1.1539 counts=13314207,14423717,9930531,12609833,12260034,12520222,12464105,12477351 PASS
+OS parallel N=100000000 dist=z os=4 p=8 time=2.709926 local_sort=2.129030 sampling=0.000980 alltoallv=0.192415 merge=0.403982 a2av_call=0.178049 max_over_mean=1.1539 counts=13314207,14423717,9930531,12609833,12260034,12520222,12464105,12477351 PASS
+OS parallel N=100000000 dist=z os=16 p=8 time=2.640171 local_sort=2.028628 sampling=0.000611 alltoallv=0.203409 merge=0.428001 a2av_call=0.181929 max_over_mean=1.1539 counts=13314207,14423717,9930531,12609833,12260034,12520222,12464105,12477351 PASS
+OS parallel N=100000000 dist=z os=64 p=8 time=2.587090 local_sort=2.084507 sampling=0.000774 alltoallv=0.185834 merge=0.330419 a2av_call=0.175148 max_over_mean=1.1539 counts=13314207,14423717,9930531,12609833,12260034,12520222,12464105,12477351 PASS
