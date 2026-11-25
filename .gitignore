@@ -1,0 +1,16 @@
+# build products
+*.o
+*.out
+*.bin
+kernels/*/serial
+kernels/*/parallel
+kernels/*/parallel_mpi
+kernels/*/verify
+kernels/*/pingpong
+
+# python / editor noise
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store

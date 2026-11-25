@@ -1,0 +1,27 @@
+name: build-and-check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  kernels:
+    runs-on: ubuntu-latest
+    env:
+      OMPI_ALLOW_RUN_AS_ROOT: "1"
+      OMPI_ALLOW_RUN_AS_ROOT_CONFIRM: "1"
+      OMPI_MCA_rmaps_base_oversubscribe: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential openmpi-bin libopenmpi-dev
+
+      - name: Build all kernels
+        run: make
+
+      - name: Run correctness checks
+        run: make check
