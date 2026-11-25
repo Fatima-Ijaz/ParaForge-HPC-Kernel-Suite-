@@ -45,3 +45,10 @@ final from-scratch build on a clean Linux install.
 * Every kernel is built and checked (`make check`) by its reviewer before it is considered done.
 * Benchmarks are run with the same script on an otherwise idle machine, three repetitions, median reported.
 * The git history is the authoritative record of who changed what; this file only summarises it.
+
+## Timeline note
+
+Most of the work was developed on each member's local machine over the preceding days and was
+uploaded to this repository on 25 November 2026. The commit dates here are therefore upload
+dates, not development dates; the commits are split by the member who led each part. The
+instructor has been informed and will assess individual contribution in person.
