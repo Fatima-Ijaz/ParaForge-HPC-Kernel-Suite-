@@ -32,6 +32,7 @@
 #include <cstdlib>
 #include <cstring>
 #include <memory>
+#include <string>
 #include "keys.h"
 
 int main(int argc, char **argv) {
